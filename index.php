@@ -1,13 +1,8 @@
 <?php get_header(); ?>
 
-    <!-- h2>Søk</h2 -->
-    <form method="get" action="/glitre/api/index.php" id="bib-search">
-		<ul data-role="listview">
-      <li data-role="fieldcontain">
-	      <label for="name">Søk etter emne/tittel/forfatter:</label>
-	      <input type="search" name="q" id="search" value=""  />
-			</li>
-		</ul>
+    <h2>Søk i katalogen</h2>
+    <form method="get" action="/wp-content/plugins/mobibl-wp-plugin/glitre-proxy.php" id="bib-search">
+	      <input type="search" name="q" id="search" value="" placeholder="emne/tittel/forfatter" />
 		<input type="hidden" name="library" value="demo" /> <!-- NBNBNBNB!!! -->
     <input type="hidden" name="sort_by" value="year" />
     <input type="hidden" name="sort_order" value="descending" />
