@@ -54,12 +54,3 @@
 <body <?php body_class(); ?>>
 
 <!-- startmobiblpage -->
-
-<div data-role="page" data-theme="b" id="home">
-
-<div data-role="header" data-theme="b">
-    <a href="#" data-rel="back">Tilbake</a>
-    <h1><?php bloginfo('name'); ?></h1>
-</div>
-
-<div id="content" data-role="content" data-theme="b">

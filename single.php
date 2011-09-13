@@ -4,7 +4,14 @@
 
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			
-			<h2><?php the_title(); ?></h2>
+<div data-role="page" data-theme="b" id="home">
+
+<div data-role="header" data-theme="b">
+    <a href="#" data-rel="back">Tilbake</a>
+    <h1><?php the_title(); ?></h1>
+</div>
+
+<div id="content" data-role="content" data-theme="b">
 			
 			<div class="entry">
 				
