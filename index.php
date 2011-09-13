@@ -1,19 +1,5 @@
 <?php get_header(); ?>
 
-    <!-- h2>Søk</h2 -->
-    <form method="get" action="/glitre/api/index.php" id="bib-search">
-		<ul data-role="listview">
-      <li data-role="fieldcontain">
-	      <label for="name">Søk etter emne/tittel/forfatter:</label>
-	      <input type="search" name="q" id="search" value=""  />
-			</li>
-		</ul>
-		<input type="hidden" name="library" value="demo" /> <!-- NBNBNBNB!!! -->
-    <input type="hidden" name="sort_by" value="year" />
-    <input type="hidden" name="sort_order" value="descending" />
-    <input type="hidden" name="format" value="mobibl" />
-		</form>
-
 <?php get_sidebar(); ?>
 
     <h2>Nyheter</h2>
